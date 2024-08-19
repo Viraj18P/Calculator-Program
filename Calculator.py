@@ -131,8 +131,7 @@ if ask==("LinearEqnVar2"):
     print("The value of x=",x)
     print("The value of y=",y)
 
-else :
-    print("Enter a supported command from above.")
+
     
 
     
