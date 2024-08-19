@@ -36,14 +36,7 @@ def log(x):
 
 
 
-
-
-    
-        
-
-
-
-ask=input("Which operation do you want to perform from: addition/subtraction/multiplication/division/sine/cos/tan/log/quadratic/LinearEqnVar2?")
+ask=input("Which operation do you want to perform from: addition/subtraction/multiplication/division/sine/cos/tan/log/quadratic/LinearEqnVar2? (Enter exact operation name as above)")
 
 
 if ask=="addition" :
@@ -69,7 +62,7 @@ if ask=="subtraction" :
 
 
 if ask=="sine":
-    a=int(input("Enter number:"))
+    a=int(input("Enter number (in radians):"))
     sin=a
     m=-1
     for i in range(3,1000,2):
@@ -94,7 +87,7 @@ if ask=="quadratic":
 
 if ask==("cos"):
 
-    a=int(input("Enter value:"))
+    a=int(input("Enter value(in radians):"))
     cos=1
     m=-1
     for i in range(2,1000,2):
@@ -104,7 +97,7 @@ if ask==("cos"):
 
 if ask==("tan"):
 
-    a=int(input("Enter value:"))
+    a=int(input("Enter value:(in radians)"))
     cos=1
     m=-1
     for i in range(2,1000,2):
