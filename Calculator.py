@@ -52,7 +52,11 @@ if ask=="multiplication" :
 if ask=="division" :
     enter1=int(input("Enter your first number:"))
     enter2=int(input("Enter your second number:"))
-    print(division(enter1,enter2))
+    if enter2==0:
+        print("Can't divide by 0")
+    else:   
+        print(division(enter1,enter2))
+    
 
 if ask=="subtraction" :
     enter1=int(input("Enter your first number:"))
