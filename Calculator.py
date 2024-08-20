@@ -36,20 +36,20 @@ def log(x):
 
 
 
-ask=input("Which operation do you want to perform from: addition/subtraction/multiplication/division/sine/cos/tan/log/quadratic/LinearEqnVar2? (Enter exact operation name as above)")
+ask=input("Which operation do you want to perform from: addition(+)/subtraction(-)/multiplication(*)/division(/)/sine(sin)/cosine(cos)/tan(tan)/logarithm(log)/quadratic(q)/LinearEqnVar2(L2)? (Enter exact operation name mentioned in bracket)")
 
 
-if ask=="addition" :
+if ask=="+" :
     enter1=int(input("Enter your first number:"))
     enter2=int(input("Enter your second number:"))
     print(addition(enter1,enter2))
 
-if ask=="multiplication" :
+if ask=="*" :
     enter1=int(input("Enter your first number:"))
     enter2=int(input("Enter your second number:"))
     print(multiplication(enter1,enter2))
 
-if ask=="division" :
+if ask=="/" :
     enter1=int(input("Enter your first number:"))
     enter2=int(input("Enter your second number:"))
     if enter2==0:
@@ -58,14 +58,14 @@ if ask=="division" :
         print(division(enter1,enter2))
     
 
-if ask=="subtraction" :
+if ask=="-" :
     enter1=int(input("Enter your first number:"))
     enter2=int(input("Enter your second number:"))
     print(subtraction(enter1,enter2))
 
 
 
-if ask=="sine":
+if ask=="sin":
     a=int(input("Enter number (in radians):"))
     sin=a
     m=-1
@@ -80,7 +80,7 @@ if ask=="log":
 
 
 
-if ask=="quadratic":
+if ask=="q":
     
     a=int(input("Enter quadratic eqn x^2 coeff:"))
     b=int(input("Enter quadratic eqn x coeff:"))
@@ -115,7 +115,7 @@ if ask==("tan"):
         m=m*(-1)
     print(sin/cos)
     
-if ask==("LinearEqnVar2"):
+if ask==("L2"):
     print("For eqn of form ax+by+c=0 and dx+ey+f=0")
     a=int(input("Enter value of a:"))
     b=int(input("Enter value of b:"))
